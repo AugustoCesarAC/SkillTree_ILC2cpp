@@ -110,9 +110,11 @@ namespace SkillTree.SkillEffect
                         break;
                     }
                 case "MoreXPWhenEarnMoney":
-                        SkillPatchStats.PlayerXpMoney.XpMoney = true;
+                    {
+                        SkillPatchStats.PlayerXpMoney.XpMoney = (data.MoreXPWhenEarnMoney == 1);
+                        MelonLogger.Msg($"More XP When Earn Money {SkillPatchStats.PlayerXpMoney.XpMoney}");
                         break;
-
+                    }
                 // OPERATIONS
                 case "Operations":
                     SkillPatchOperations.BetterGrowTent.Add = (data.Operations * 0.16f);

@@ -7,6 +7,7 @@ using Il2CppScheduleOne.UI;
 using Il2CppScheduleOne.UI.ATM;
 using Il2CppScheduleOne.UI.Phone;
 using Il2CppScheduleOne.UI.Phone.Messages;
+using Il2CppScheduleOne.UI.Shop;
 using MelonLoader;
 using System.Reflection;
 using UnityEngine;
@@ -316,18 +317,31 @@ namespace SkillTree.SkillPatchSocial
         public static bool CartChanged_Prefix(PhoneShopInterface __instance)
         {
             if (__instance == null) return true;
+            
+            __instance.ConfirmButton.interactable = false;
 
-            int itemCount;
-            float orderTotal = __instance.GetOrderTotal(out itemCount);
+            float num = 0f;
+            int itemCount = 0;
 
-            __instance.UpdateOrderTotal();
+            foreach (var item in __instance._cart)
+            {
+                num += item.Listing.Price * (float)item.Quantity;
+                itemCount += item.Quantity;
+            }
 
-            //MelonLogger.Msg($"Order Total: {orderTotal} | Items: {itemCount}");
+            float orderTotal = num;
+
+            __instance.OrderTotalLabel.text = MoneyManager.FormatAmount(orderTotal);
+            __instance.OrderTotalLabel.color = ((orderTotal <= __instance.orderLimit) ? __instance.ValidAmountColor : __instance.InvalidAmountColor);
+            __instance.ItemLimitLabel.text = itemCount + "/" + SupplierUp.SupplierLimit;
+            __instance.ItemLimitLabel.color = ((itemCount <= SupplierUp.SupplierLimit) ? Color.black : __instance.InvalidAmountColor);
+
+            MelonLogger.Msg($"Order Total: {orderTotal} | Items: {itemCount}");
 
             if (orderTotal > 0f && orderTotal <= __instance.orderLimit)
             {
                 __instance.ConfirmButton.interactable = itemCount <= (SupplierUp.SupplierLimit);
-                //MelonLogger.Msg($"Can Confirm: {__instance.ConfirmButton.interactable} (Limit: SupplierUp.SupplierLimit})");
+                MelonLogger.Msg($"Can Confirm: {__instance.ConfirmButton.interactable} (Limit: {SupplierUp.SupplierLimit})");
             }
             return false;
         }

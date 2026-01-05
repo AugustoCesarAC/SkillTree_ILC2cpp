@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillpatchsocial\\skillpatchsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillpatchsocial\\skillpatchsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skilleffect\\skillsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skilleffect\\skillsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillpatchstats\\skillpatchstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillpatchstats\\skillpatchstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillpatchoperations\\skillpatchoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillpatchoperations\\skillpatchoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\ui\\skilltreeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:ui\\skilltreeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +31,8 @@
       "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillbasepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillpatchoperations\\skillpatchoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillpatchoperations\\skillpatchoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillsjson\\skillslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillsjson\\skillslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillpatchsocial\\skillpatchsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillpatchsocial\\skillpatchsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skillpatchstats\\skillpatchstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skillpatchstats\\skillpatchstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|c:\\users\\acsil\\onedrive\\documentos\\0modmelonloader\\skilltree il2cpp\\skilleffect\\skillsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BB8A09-EBBD-DBF1-EC7F-9A16B8C80731}|SkillTree IL2cpp.csproj|solutionrelative:skilleffect\\skillsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,35 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "SkillPatchSocial.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillPatchSocial\\SkillPatchSocial.cs",
               "RelativeDocumentMoniker": "SkillPatchSocial\\SkillPatchSocial.cs",
               "ToolTip": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillPatchSocial\\SkillPatchSocial.cs",
               "RelativeToolTip": "SkillPatchSocial\\SkillPatchSocial.cs",
-              "ViewState": "AgIAAEEBAAAAAAAAAAAiwDwBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsBAAAAAAAAAAAwwFoBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T06:13:25.822Z"
+              "WhenOpened": "2026-01-05T06:13:25.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "SkillPatchStats.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillPatchStats\\SkillPatchStats.cs",
               "RelativeDocumentMoniker": "SkillPatchStats\\SkillPatchStats.cs",
               "ToolTip": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillPatchStats\\SkillPatchStats.cs",
               "RelativeToolTip": "SkillPatchStats\\SkillPatchStats.cs",
-              "ViewState": "AgIAANIAAAAAAAAAAAAAANwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T06:12:49.779Z"
+              "WhenOpened": "2026-01-05T06:12:49.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Core.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\Core.cs",
               "RelativeDocumentMoniker": "Core.cs",
@@ -78,12 +80,11 @@
               "RelativeToolTip": "Core.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAowFoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T00:00:34.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T00:00:34.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "SkillBasePatch.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillBasePatch.cs",
               "RelativeDocumentMoniker": "SkillBasePatch.cs",
@@ -95,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SkillSlot.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillsJson\\SkillSlot.cs",
               "RelativeDocumentMoniker": "SkillsJson\\SkillSlot.cs",
@@ -107,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SkillTreeUI.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\UI\\SkillTreeUI.cs",
               "RelativeDocumentMoniker": "UI\\SkillTreeUI.cs",
@@ -126,21 +127,23 @@
               "RelativeDocumentMoniker": "SkillPatchOperations\\SkillPatchOperations.cs",
               "ToolTip": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillPatchOperations\\SkillPatchOperations.cs",
               "RelativeToolTip": "SkillPatchOperations\\SkillPatchOperations.cs",
-              "ViewState": "AgIAADwBAAAAAAAAAAA5wFgBAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAgwFgBAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T19:27:00.647Z"
+              "WhenOpened": "2026-01-03T19:27:00.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "SkillSystem.cs",
               "DocumentMoniker": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillEffect\\SkillSystem.cs",
               "RelativeDocumentMoniker": "SkillEffect\\SkillSystem.cs",
               "ToolTip": "C:\\Users\\acsil\\OneDrive\\Documentos\\0ModMelonLoader\\SkillTree IL2cpp\\SkillEffect\\SkillSystem.cs",
               "RelativeToolTip": "SkillEffect\\SkillSystem.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAgwPsAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAgwP0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T18:38:20.535Z"
+              "WhenOpened": "2026-01-03T18:38:20.535Z",
+              "EditorCaption": ""
             }
           ]
         }
