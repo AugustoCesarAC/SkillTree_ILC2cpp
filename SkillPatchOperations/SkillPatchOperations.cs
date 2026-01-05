@@ -341,10 +341,10 @@ namespace SkillTree.SkillPatchOperations
             if (__instance.Pot.NormalizedMoistureAmount <= 0f)
                 num *= 0f;
 
-            MelonLogger.Msg($" Before Growth Plant  {__instance.NormalizedGrowthProgress}");
-            MelonLogger.Msg($" Add Growth Plant  {__instance.NormalizedGrowthProgress}");
+            //MelonLogger.Msg($" Before Growth Plant  {__instance.NormalizedGrowthProgress}");
+            //MelonLogger.Msg($" Add Growth Plant  {__instance.NormalizedGrowthProgress}");
             __instance.SetNormalizedGrowthProgress(__instance.NormalizedGrowthProgress + num);
-            MelonLogger.Msg($" After Growth Plant {__instance.NormalizedGrowthProgress}");
+            //MelonLogger.Msg($" After Growth Plant {__instance.NormalizedGrowthProgress}");
 
             return false;
         }

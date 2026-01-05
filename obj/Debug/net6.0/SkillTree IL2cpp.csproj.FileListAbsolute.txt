@@ -185,3 +185,4 @@ C:\Users\acsil\OneDrive\Documentos\0ModMelonLoader\SkillTree IL2cpp\obj\Debug\ne
 C:\Users\acsil\OneDrive\Documentos\0ModMelonLoader\SkillTree IL2cpp\obj\Debug\net6.0\ref\SkillTree_IL2cpp.dll
 C:\Users\acsil\OneDrive\Documentos\0ModMelonLoader\SkillTree IL2cpp\bin\Debug\net6.0\AssetRipper.Primitives.dll
 C:\Users\acsil\OneDrive\Documentos\0ModMelonLoader\SkillTree IL2cpp\bin\Debug\net6.0\MelonLoader.pdb
+C:\Users\acsil\OneDrive\Documentos\0ModMelonLoader\SkillTree IL2cpp\obj\Debug\net6.0\SkillTree IL2cpp.sourcelink.json

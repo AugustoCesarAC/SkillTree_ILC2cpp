@@ -121,7 +121,7 @@ namespace SkillTree.UI
 
         private void DrawCategoryButtons()
         {
-            GUILayout.Label("Escolha uma categoria");
+            GUILayout.Label("Choose a category");
             GUILayout.Space(10);
 
             if (GUILayout.Button("Stats"))
@@ -138,7 +138,7 @@ namespace SkillTree.UI
         {
             GUILayout.BeginHorizontal();
 
-            if (GUILayout.Button("< Voltar", GUILayout.Width(80)))
+            if (GUILayout.Button("< Back", GUILayout.Width(80)))
             {
                 selectedCategory = null;
                 GUILayout.EndHorizontal();

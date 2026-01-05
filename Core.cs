@@ -85,6 +85,12 @@ namespace SkillTree
                 if (!WaitTime())
                     return;
 
+            //lastProcessedTier = levelManager.Tier;
+            //lastProcessedRank = levelManager.Rank;
+
+            if (lastProcessedTier != levelManager.Tier)
+                AttPoints(true);
+
             bool treeUiChange = false;
 
             if (Input.GetKeyDown(KeyCode.C) && waiting)
