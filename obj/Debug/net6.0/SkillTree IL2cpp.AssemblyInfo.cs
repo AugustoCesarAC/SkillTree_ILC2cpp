@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillTree_IL2cpp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87af6ce7dfd6c40f77a46b010cba0ea591b1f791")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3722dd274da40bd5eaa7e5bdb7fe996b85765533")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillTree_IL2cpp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillTree_IL2cpp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

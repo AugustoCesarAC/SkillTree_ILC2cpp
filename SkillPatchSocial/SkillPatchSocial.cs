@@ -336,12 +336,12 @@ namespace SkillTree.SkillPatchSocial
             __instance.ItemLimitLabel.text = itemCount + "/" + SupplierUp.SupplierLimit;
             __instance.ItemLimitLabel.color = ((itemCount <= SupplierUp.SupplierLimit) ? Color.black : __instance.InvalidAmountColor);
 
-            MelonLogger.Msg($"Order Total: {orderTotal} | Items: {itemCount}");
+            //MelonLogger.Msg($"Order Total: {orderTotal} | Items: {itemCount}");
 
             if (orderTotal > 0f && orderTotal <= __instance.orderLimit)
             {
                 __instance.ConfirmButton.interactable = itemCount <= (SupplierUp.SupplierLimit);
-                MelonLogger.Msg($"Can Confirm: {__instance.ConfirmButton.interactable} (Limit: {SupplierUp.SupplierLimit})");
+                //MelonLogger.Msg($"Can Confirm: {__instance.ConfirmButton.interactable} (Limit: {SupplierUp.SupplierLimit})");
             }
             return false;
         }

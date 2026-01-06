@@ -204,27 +204,11 @@ namespace SkillTree.SkillPatchOperations
 
             if (__instance.CurrentMixTime < __instance.GetMixTimeForCurrentOperation() / 2)
             {
-                __instance.CurrentMixTime = (int)(__instance.GetMixTimeForCurrentOperation() / 2);
+                if (MixOutputAdd.TimeAjust > 1)
+                    __instance.CurrentMixTime = (int)(__instance.GetMixTimeForCurrentOperation() / 2);
                 if (MixOutputAdd.Add == 2)
                     __instance.CurrentMixTime += (int)(__instance.GetMixTimeForCurrentOperation() / 4);
             }
-
-
-            /*
-            if (MixOutputAdd.Add == 2)
-                MixOutputAdd.TimeAjust = 4;
-
-            int extraTicks = 0;
-
-            if (MixOutputAdd.Add == 2)
-                extraTicks = 1; 
-            else
-                extraTicks = 3;
-
-
-            if (__instance.CurrentMixOperation == null) return;
-            __instance.CurrentMixTime = Mathf.Max(0, __instance.CurrentMixTime + extraTicks);*/
-
         }
     }
 
