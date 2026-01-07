@@ -70,7 +70,7 @@ namespace SkillTree.Json
         public int MoreYield = 0;
 
         // Operations subs
-        [Skill("Advanced Pot Techniques", "+15% Quality. [Lvl 1] Moisture Pots gain +1 Tier. [Max Lvl] All Pots gain +1 Tier.", SkillCategory.Operations, "MoreYield", 2)]
+        [Skill("Advanced Pot Techniques", "+15% Quality. [Lvl 1] Plastic/Moisture Pots gain +1 Tier. [Max Lvl] All Pots gain +1 Tier.", SkillCategory.Operations, "MoreYield", 2)]
         public int MoreQuality = 0;
 
         // Operations subs

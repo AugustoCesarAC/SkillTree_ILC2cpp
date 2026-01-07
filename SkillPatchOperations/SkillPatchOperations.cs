@@ -416,7 +416,7 @@ namespace SkillTree.SkillPatchOperations
                 float currentQuality = __instance.QualityLevel;
 
                 if (potName.Equals("Grow Tent")) baseQuality = 0.1f + BetterGrowTent.Add;
-                else if (potName.Equals("Plastic Pot")) baseQuality = 0.26f;
+                else if (potName.Equals("Plastic Pot")) baseQuality = 0.36f;
                 else if (potName.Equals("Moisture-Preserving Pot")) baseQuality = 0.36f;
                 else if (potName.Equals("Air Pot")) baseQuality = 0.5f;
                 else baseQuality = 0.1f; 
@@ -603,10 +603,10 @@ namespace SkillTree.SkillPatchOperations
 
             if (op.IngredientQuality < EQuality.Heavenly)
             {
-                MelonLogger.Msg($"__instance.CurrentOperation.IngredientQuality {__instance.CurrentOperation.IngredientQuality}");
+                //MelonLogger.Msg($"__instance.CurrentOperation.IngredientQuality {__instance.CurrentOperation.IngredientQuality}");
                 __instance.CurrentOperation.IngredientQuality += 1;
                 processedOperations.Add(op);
-                MelonLogger.Msg($"__instance.CurrentOperation.IngredientQuality {__instance.CurrentOperation.IngredientQuality}");
+                //MelonLogger.Msg($"__instance.CurrentOperation.IngredientQuality {__instance.CurrentOperation.IngredientQuality}");
                 MelonCoroutines.Start(CleanUp(op));
             }
         }

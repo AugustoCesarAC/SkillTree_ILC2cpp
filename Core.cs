@@ -26,6 +26,7 @@ namespace SkillTree
         private Player localPlayer;
         private PlayerCamera playerCamera;
         private PlayerInventory playerInventory;
+        private PlayerManager playerManager;
         private Customer[] customerList;
 
         private float timer = 2f;
@@ -71,6 +72,9 @@ namespace SkillTree
             if (playerInventory == null)
                 playerInventory = PlayerInventory.Instance;
 
+            if (playerManager == null)
+                playerManager = PlayerManager.Instance;
+
             if (localPlayer == null)
                 localPlayer = Player.Local;
 
@@ -86,6 +90,9 @@ namespace SkillTree
             if (!waiting)
                 if (!WaitTime())
                     return;
+
+            if (timeManager == null || playerCamera == null || playerMovement == null)
+                Init();
 
             if (lastProcessedTier != levelManager.Tier)
                 AttPoints(true);
@@ -115,9 +122,9 @@ namespace SkillTree
                 treeUiChange = false;
                 Cursor.lockState = skillTreeUI.Visible ? CursorLockMode.None : CursorLockMode.Locked;
                 Cursor.visible = skillTreeUI.Visible ? true : false;
-                PlayerMovement.Instance.CanMove = !skillTreeUI.Visible;
-                PlayerCamera.Instance.enabled = !skillTreeUI.Visible;
-                PlayerManager.Instance.enabled = !skillTreeUI.Visible;
+                playerMovement.CanMove = !skillTreeUI.Visible;
+                playerCamera.canLook = !skillTreeUI.Visible;
+                playerManager.enabled = !skillTreeUI.Visible;
                 playerInventory.SetInventoryEnabled(!skillTreeUI.Visible);
             }
 
