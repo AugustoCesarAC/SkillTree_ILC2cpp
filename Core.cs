@@ -1,9 +1,11 @@
-﻿using Il2CppScheduleOne.Economy;
+﻿using Il2CppScheduleOne.DevUtilities;
+using Il2CppScheduleOne.Economy;
 using Il2CppScheduleOne.Employees;
 using Il2CppScheduleOne.GameTime;
 using Il2CppScheduleOne.Levelling;
 using Il2CppScheduleOne.Money;
 using Il2CppScheduleOne.PlayerScripts;
+using Il2CppScheduleOne.UI;
 using MelonLoader;
 using SkillTree.Json;
 using SkillTree.SkillEffect;
@@ -198,6 +200,15 @@ namespace SkillTree
                     skillPointValid = 2;
                     specialSkillPointValid = 1;
                 }
+
+                Singleton<NotificationsManager>.Instance.SendNotification(
+                                "Level Up",
+                                $"<color=#16F01C>+ {skillPointValid} Skill Points</color>", NetworkSingleton<MoneyManager>.Instance.LaunderingNotificationIcon);
+
+                if (specialSkillPointValid > 0)
+                    Singleton<NotificationsManager>.Instance.SendNotification(
+                                    "Special Up",
+                                    $"<color=#16F01C>+ {specialSkillPointValid} Special Points</color>", NetworkSingleton<MoneyManager>.Instance.LaunderingNotificationIcon);
             }
 
             lastProcessedTier = levelManager.Tier;
@@ -234,6 +245,9 @@ namespace SkillTree
 
                 for (int i = 0; i < specialSkillPointValid; i++)
                     specialGained++;
+
+                if (specialSkillPointValid > 0)
+                    specialSkillPointValid = 0;
 
                 if (skillTreeUI == null)
                     skillTreeUI = new SkillTreeUI(skillData, skillConfig);

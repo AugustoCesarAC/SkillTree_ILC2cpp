@@ -35,35 +35,33 @@ namespace SkillTree.SkillSpecial.SkillEmployee
         [HarmonyPrefix]
         public static bool Prefix(ref float __result, Il2CppSystem.Object __instance)
         {
-            if (!BetterBotanist.Add) return true;
-
             if (__instance.TryCast<SowSeedInPotBehaviour>() != null)
             {
-                __result = 7.5f;
+                __result = BetterBotanist.Add ? 7.5f : 15f;
             }
             else if (__instance.TryCast<WaterPotBehaviour>() != null)
             {
-                __result = 5f;
+                __result = BetterBotanist.Add ? 5f : 10f;
             }
             else if (__instance.TryCast<HarvestPotBehaviour>() != null)
             {
-                __result = 7.5f;
+                __result = BetterBotanist.Add ? 7.5f : 15f;
             }
             else if (__instance.TryCast<HarvestMushroomBedBehaviour>() != null)
             {
-                __result = 8f;
+                __result = BetterBotanist.Add ? 8f : 16f;
             }
             else if (__instance.TryCast<AddSoilToGrowContainerBehaviour>() != null)
             {
-                __result = 5f;
+                __result = BetterBotanist.Add ? 5f : 10f;
             }
             else if (__instance.TryCast<ApplySpawnToMushroomBedBehaviour>() != null)
             {
-                __result = 5f;
+                __result = BetterBotanist.Add ? 5f : 10f;
             }
             else
             {
-                __result = 5f;
+                __result = BetterBotanist.Add ? 5f : 10f;
             }
 
             return false; 
